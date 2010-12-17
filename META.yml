@@ -29,4 +29,4 @@ requires:
 resources:
   homepage: http://github.com/DarwinAwardWinner/Pod-Weaver-Section-WarrantyDisclaimer/tree
   repository: git://github.com/DarwinAwardWinner/Pod-Weaver-Section-WarrantyDisclaimer.git
-version: 0.103512
+version: 0.103511

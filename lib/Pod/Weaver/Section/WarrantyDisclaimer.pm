@@ -3,7 +3,7 @@ use warnings;
 
 package Pod::Weaver::Section::WarrantyDisclaimer;
 BEGIN {
-  $Pod::Weaver::Section::WarrantyDisclaimer::VERSION = '0.103512'; # TRIAL
+  $Pod::Weaver::Section::WarrantyDisclaimer::VERSION = '0.103511';
 }
 
 use Moose;
@@ -65,7 +65,7 @@ Pod::Weaver::Section::WarrantyDisclaimer - Add a standard DISCLAIMER OF WARRANTY
 
 =head1 VERSION
 
-version 0.103512
+version 0.103511
 
 =head1 SYNOPSIS
 
