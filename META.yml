@@ -1,5 +1,5 @@
 ---
-abstract: 'add a standard DISCLAIMER OF WARRANTY section (for your Perl module)'
+abstract: 'Add a standard DISCLAIMER OF WARRANTY section (for your Perl module)'
 author:
   - 'Ryan C. Thompson <rct@thompsonclan.org>'
 build_requires:
@@ -26,4 +26,7 @@ requires:
   Pod::Elemental::Element::Pod5::Ordinary: 0
   Pod::Weaver::Role::Section: 0
   perl: 5.006
-version: 0.103510
+resources:
+  homepage: http://github.com/DarwinAwardWinner/Pod-Weaver-Section-WarrantyDisclaimer/tree
+  repository: git://github.com/DarwinAwardWinner/Pod-Weaver-Section-WarrantyDisclaimer.git
+version: 0.103512

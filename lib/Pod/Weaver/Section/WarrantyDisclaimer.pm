@@ -3,12 +3,12 @@ use warnings;
 
 package Pod::Weaver::Section::WarrantyDisclaimer;
 BEGIN {
-  $Pod::Weaver::Section::WarrantyDisclaimer::VERSION = '0.103510';
+  $Pod::Weaver::Section::WarrantyDisclaimer::VERSION = '0.103512'; # TRIAL
 }
 
 use Moose;
 with 'Pod::Weaver::Role::Section';
-# ABSTRACT: add a standard DISCLAIMER OF WARRANTY section (for your Perl module)
+# ABSTRACT: Add a standard DISCLAIMER OF WARRANTY section (for your Perl module)
 
 use Moose::Autobox;
 
@@ -61,11 +61,11 @@ EOF
 
 =head1 NAME
 
-Pod::Weaver::Section::WarrantyDisclaimer - add a standard DISCLAIMER OF WARRANTY section (for your Perl module)
+Pod::Weaver::Section::WarrantyDisclaimer - Add a standard DISCLAIMER OF WARRANTY section (for your Perl module)
 
 =head1 VERSION
 
-version 0.103510
+version 0.103512
 
 =head1 SYNOPSIS
 
@@ -77,7 +77,7 @@ In F<weaver.ini>, probably near the end:
 
 This section plugin will add the standard B<DISCLAIMER OF WARRANTY>
 section to your POD. See the bottom of this module's documentation for
-the content. of this section.
+the content of this section.
 
 =for Pod::Coverage weave_section
 

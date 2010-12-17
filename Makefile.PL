@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.31;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'add a standard DISCLAIMER OF WARRANTY section (for your Perl module)',
+  'ABSTRACT' => 'Add a standard DISCLAIMER OF WARRANTY section (for your Perl module)',
   'AUTHOR' => 'Ryan C. Thompson <rct@thompsonclan.org>',
   'BUILD_REQUIRES' => {
     'Carp' => '0',
@@ -34,7 +34,7 @@ my %WriteMakefileArgs = (
     'Pod::Elemental::Element::Pod5::Ordinary' => '0',
     'Pod::Weaver::Role::Section' => '0'
   },
-  'VERSION' => '0.103510',
+  'VERSION' => '0.103512',
   'test' => {
     'TESTS' => 't/*.t'
   }

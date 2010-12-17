@@ -1,9 +1,9 @@
 NAME
-    Pod::Weaver::Section::WarrantyDisclaimer - add a standard DISCLAIMER OF
+    Pod::Weaver::Section::WarrantyDisclaimer - Add a standard DISCLAIMER OF
     WARRANTY section (for your Perl module)
 
 VERSION
-    version 0.103510
+    version 0.103512
 
 SYNOPSIS
     In weaver.ini, probably near the end:
@@ -13,7 +13,7 @@ SYNOPSIS
 OVERVIEW
     This section plugin will add the standard DISCLAIMER OF WARRANTY section
     to your POD. See the bottom of this module's documentation for the
-    content. of this section.
+    content of this section.
 
 INSTALLATION
     See perlmodinstall for information and options on installing Perl
