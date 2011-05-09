@@ -4,7 +4,7 @@ use warnings;
 
 BEGIN { require 5.006; }
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
@@ -21,7 +21,7 @@ my %WriteMakefileArgs = (
     'perl' => '5.004'
   },
   'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+    'ExtUtils::MakeMaker' => '6.30'
   },
   'DISTNAME' => 'Pod-Weaver-Section-WarrantyDisclaimer',
   'EXE_FILES' => [],
@@ -34,7 +34,7 @@ my %WriteMakefileArgs = (
     'Pod::Elemental::Element::Pod5::Ordinary' => '0',
     'Pod::Weaver::Role::Section' => '0'
   },
-  'VERSION' => '0.103511',
+  'VERSION' => '0.111290',
   'test' => {
     'TESTS' => 't/*.t'
   }

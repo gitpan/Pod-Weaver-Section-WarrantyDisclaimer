@@ -11,9 +11,9 @@ build_requires:
   Test::More: 0.94
   perl: 5.004
 configure_requires:
-  ExtUtils::MakeMaker: 6.31
+  ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.102345, CPAN::Meta::Converter version 2.102400'
+generated_by: 'Dist::Zilla version 4.200006, CPAN::Meta::Converter version 2.110930'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -27,6 +27,6 @@ requires:
   Pod::Weaver::Role::Section: 0
   perl: 5.006
 resources:
-  homepage: http://github.com/DarwinAwardWinner/Pod-Weaver-Section-WarrantyDisclaimer/tree
-  repository: git://github.com/DarwinAwardWinner/Pod-Weaver-Section-WarrantyDisclaimer.git
-version: 0.103511
+  homepage: http://github.com/DarwinAwardWinner/Pod-Weaver-Section-WarrantyDisclaimer
+  repository: http://github.com/DarwinAwardWinner/Pod-Weaver-Section-WarrantyDisclaimer
+version: 0.111290
