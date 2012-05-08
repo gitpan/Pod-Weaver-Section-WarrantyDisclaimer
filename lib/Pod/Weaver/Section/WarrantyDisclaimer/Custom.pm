@@ -2,14 +2,12 @@ use strict;
 use warnings;
 
 package Pod::Weaver::Section::WarrantyDisclaimer::Custom;
-BEGIN {
-  $Pod::Weaver::Section::WarrantyDisclaimer::Custom::VERSION = '0.111290';
+{
+  $Pod::Weaver::Section::WarrantyDisclaimer::Custom::VERSION = '0.121290';
 }
 use Moose;
 extends "Pod::Weaver::Section::WarrantyDisclaimer";
 # ABSTRACT: Specify a custom warranty section
-
-sub mvp_multivalue_args { qw( text ) }
 
 
 has 'title' => (
@@ -56,7 +54,7 @@ Pod::Weaver::Section::WarrantyDisclaimer::Custom - Specify a custom warranty sec
 
 =head1 VERSION
 
-version 0.111290
+version 0.121290
 
 =head1 SYNOPSIS
 
@@ -96,6 +94,10 @@ multiple times:
   text = Second line of warranty
   text = ...
   text = Last line of warranty
+
+=for Pod::Coverage mvp_multivalue_args
+
+sub mvp_multivalue_args { qw( text ) }
 
 =head1 INSTALLATION
 

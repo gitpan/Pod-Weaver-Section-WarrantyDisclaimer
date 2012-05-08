@@ -2,8 +2,8 @@ use strict;
 use warnings;
 
 package Pod::Weaver::Section::WarrantyDisclaimer::GPL1;
-BEGIN {
-  $Pod::Weaver::Section::WarrantyDisclaimer::GPL1::VERSION = '0.111290';
+{
+  $Pod::Weaver::Section::WarrantyDisclaimer::GPL1::VERSION = '0.121290';
 }
 use Moose;
 # GPL1 text is identical to GPL2
@@ -22,7 +22,7 @@ Pod::Weaver::Section::WarrantyDisclaimer::GPL1 - Add the GPL1's DISCLAIMER OF WA
 
 =head1 VERSION
 
-version 0.111290
+version 0.121290
 
 =head1 SYNOPSIS
 

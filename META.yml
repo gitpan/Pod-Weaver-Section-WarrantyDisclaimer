@@ -13,12 +13,15 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200006, CPAN::Meta::Converter version 2.110930'
+generated_by: 'Dist::Zilla version 4.300015, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Pod-Weaver-Section-WarrantyDisclaimer
+no_index:
+  directory:
+    - corpus
 requires:
   Moose: 0
   Moose::Autobox: 0
@@ -26,7 +29,9 @@ requires:
   Pod::Elemental::Element::Pod5::Ordinary: 0
   Pod::Weaver::Role::Section: 0
   perl: 5.006
+  strict: 0
+  warnings: 0
 resources:
-  homepage: http://github.com/DarwinAwardWinner/Pod-Weaver-Section-WarrantyDisclaimer
-  repository: http://github.com/DarwinAwardWinner/Pod-Weaver-Section-WarrantyDisclaimer
-version: 0.111290
+  homepage: https://github.com/DarwinAwardWinner/Pod-Weaver-Section-WarrantyDisclaimer
+  repository: https://github.com/DarwinAwardWinner/Pod-Weaver-Section-WarrantyDisclaimer.git
+version: 0.121290

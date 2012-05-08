@@ -2,8 +2,8 @@ use strict;
 use warnings;
 
 package Pod::Weaver::Section::WarrantyDisclaimer::Artistic;
-BEGIN {
-  $Pod::Weaver::Section::WarrantyDisclaimer::Artistic::VERSION = '0.111290';
+{
+  $Pod::Weaver::Section::WarrantyDisclaimer::Artistic::VERSION = '0.121290';
 }
 use Moose;
 extends "Pod::Weaver::Section::WarrantyDisclaimer";
@@ -33,7 +33,7 @@ Pod::Weaver::Section::WarrantyDisclaimer::Artistic - Add the Artistic License's 
 
 =head1 VERSION
 
-version 0.111290
+version 0.121290
 
 =head1 SYNOPSIS
 

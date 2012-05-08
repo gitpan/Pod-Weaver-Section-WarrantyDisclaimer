@@ -3,7 +3,7 @@ NAME
     WARRANTY section (for your Perl module)
 
 VERSION
-    version 0.111290
+    version 0.121290
 
 SYNOPSIS
     In weaver.ini, probably near the end:

@@ -2,8 +2,8 @@ use strict;
 use warnings;
 
 package Pod::Weaver::Section::WarrantyDisclaimer::GPL2;
-BEGIN {
-  $Pod::Weaver::Section::WarrantyDisclaimer::GPL2::VERSION = '0.111290';
+{
+  $Pod::Weaver::Section::WarrantyDisclaimer::GPL2::VERSION = '0.121290';
 }
 use Moose;
 extends "Pod::Weaver::Section::WarrantyDisclaimer";
@@ -49,7 +49,7 @@ Pod::Weaver::Section::WarrantyDisclaimer::GPL2 - Add the GPL2's DISCLAIMER OF WA
 
 =head1 VERSION
 
-version 0.111290
+version 0.121290
 
 =head1 SYNOPSIS
 
